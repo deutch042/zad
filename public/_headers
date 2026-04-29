@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "routes": [
+    { "pattern": "/fonts/*", "zone_name": "" },
+    { "pattern": "/sw.js", "zone_name": "" },
+    { "pattern": "/_next/static/*", "zone_name": "" },
+    { "pattern": "/_offline", "zone_name": "" },
+    { "pattern": "/api/*", "zone_name": "" }
+  ]
+}
