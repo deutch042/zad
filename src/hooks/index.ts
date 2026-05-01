@@ -3,7 +3,3 @@ export { useGeolocation } from './useGeolocation';
 export { useAdhanPlayer } from './useAdhanPlayer';
 export { usePrayerReminder } from './usePrayerReminder';
 export { useSalawatTimer } from './useSalawatTimer';
-export { useQuranAudio } from './useQuranAudio';
-export { useTasbeeh } from './useTasbeeh';
-export { useNameOfAllah } from './useNameOfAllah';
-export { useQibla } from './useQibla';

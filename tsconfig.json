@@ -38,10 +38,7 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "examples",
-    "mini-services",
-    "skills"
+"exclude": [
+    "node_modules"
   ]
 }

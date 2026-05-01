@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   reactStrictMode: true,
-  output: "standalone",
   images: {
     unoptimized: true,
   },
@@ -16,7 +15,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';",
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' https://backup.qurango.net https://cdn.islamic.network https://n0e.radiojar.com https://n01.radiojar.com; connect-src 'self' https://api.aladhan.com https://api.alquran.cloud https://nominatim.openstreetmap.org https://backup.qurango.net https://cdn.islamic.network https://n0e.radiojar.com https://n01.radiojar.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';",
           },
           {
             key: "X-Frame-Options",
