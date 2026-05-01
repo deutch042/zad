@@ -2,8 +2,8 @@
 
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { NAMES_OF_ALLAH } from '@/lib/names-of-allah';
-import type { NameOfAllah } from '@/lib/names-of-allah';
+import { NAMES_OF_ALLAH } from '@/lib/data/names-of-allah';
+import type { NameOfAllah } from '@/lib/data/names-of-allah';
 
 function SearchIcon() {
   return (
